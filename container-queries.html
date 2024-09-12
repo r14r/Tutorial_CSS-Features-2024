@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Queries Example</title>
+    <style>
+        @container (min-width: 200px) {
+            .card {
+                display: flex;
+                flex-direction: row;
+                border: 1px solid red;
+            }
+        }
+
+        .card {
+            padding: 10px;
+            border: 1px solid gray;
+        }
+
+        .card .content {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="content">
+            <h3>Title</h3>
+            <p>Some text inside the card.</p>
+        </div>
+        <div class="content">
+            <h3>Another Section</h3>
+            <p>More content here.</p>
+        </div>
+    </div>
+</body>
+
+</html>

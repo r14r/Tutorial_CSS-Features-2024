@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:has() Example</title>
+    <style>
+        article:has(.highlight) {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <p>This article is normal.</p>
+    </article>
+    <article>
+        <p class="highlight">This article has a highlighted paragraph.</p>
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+.cache/
+.local/
+.venv/
+.vscode/
+
+.config/
+
+Library/
